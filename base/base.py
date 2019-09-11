@@ -10,7 +10,7 @@ class Base:
         return (WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll)
                 .until(lambda x: x.find_element(*loc)))
 
-    # 输入 方法
+    # 输入 方法 111111111111111111111111111111111111111111
     def base_input(self, loc, value):
         # 获取
         el = self.base_find(loc)
